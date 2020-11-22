@@ -16,7 +16,7 @@ It preserves existing jQuery, then exposes our jQuery, initializes owlCarousel2,
 
 ```js
 import $ from 'jquery';
-import 'owl-carousel-module';
+import 'owl.carousel-module';
 
 $('.owl-carousel').owlCarousel({ ... });
 ```
