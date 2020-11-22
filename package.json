@@ -1,14 +1,22 @@
 {
   "name": "owl.carousel-module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small CommonJS wrapper which handles this issues like `TypeError: $ is undefined` thrown by the owlCarousel2 plugin bundled with `browserify`, `webpack` or other bundlers",
+  "keywords": [
+    "owl.carousel", "owlCarousel2", "owl carousel 2"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --extensions .cjs --keep-file-extension",
     "test": "mocha"
   },
   "author": "Oleg Makarenko <c1iff6ooth@pm.me>",
-  "license": "ISC",
+  "repository": "github:cpof-tea/owl.carousel-module",
+  "bugs": {
+    "url": "https://github.com/cpof-tea/owl.carousel-module/issues",
+    "email": "c1iff6ooth@pm.me"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.7",
     "@babel/core": "^7.12.7",
