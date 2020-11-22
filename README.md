@@ -10,7 +10,7 @@ It preserves existing jQuery, then exposes our jQuery, initializes owlCarousel2,
 
 ### Installation
 
-`npm i github:cpof-tea/owl.carousel-module`
+`npm i github:cpof-tea/owl.carousel-module#semver:^1`
 
 ### How to use
 
