@@ -5,7 +5,7 @@
   "keywords": [
     "owl.carousel", "owlCarousel2", "owl carousel 2"
   ],
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "scripts": {
     "build": "babel src --out-dir dist --extensions .cjs --keep-file-extension",
     "test": "mocha"
