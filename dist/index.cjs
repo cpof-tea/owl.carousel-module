@@ -13,7 +13,6 @@ global.jQuery = global.$ = $;
 
 require('owl.carousel');
 
-$.noConflict();
-console.error('owlCarousel' in $.fn); // Assign back preserved jQuery
+$.noConflict(); // Assign back preserved jQuery
 
 if (preservedJQuery) global.jQuery = global.$ = preservedJQuery;
